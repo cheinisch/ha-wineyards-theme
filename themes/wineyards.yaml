@@ -1,1 +1,295 @@
+#########################################################
+# Wineyards Theme Collection
+# - riesling
+# - bordeaux
+# - wineyard
+# - wineyard_dark
+# - wineyard_light
+#
+# Typography goal: "Light" everywhere (weight 300)
+#########################################################
 
+############################
+# 🍾 Riesling (Fresh & Bright)
+############################
+riesling:
+  # Typography (Light)
+  primary-font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  paper-font-common-base_-_font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  paper-font-common-code_-_font-family: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+  paper-font-body1_-_font-weight: 300
+  paper-font-body2_-_font-weight: 300
+  paper-font-caption_-_font-weight: 300
+  paper-font-headline_-_font-weight: 300
+  paper-font-subhead_-_font-weight: 300
+  paper-font-title_-_font-weight: 300
+  paper-font-button_-_font-weight: 300
+  mdc-typography-font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  ha-card-header-font-weight: 300
+  app-header-font-weight: 300
+
+  # Colors
+  primary-color: "#c7d64a"
+  accent-color: "#a8b82f"
+  background-color: "#f7fae9"
+  primary-background-color: "#ffffff"
+  secondary-background-color: "#eef4c8"
+  card-background-color: "#ffffff"
+  divider-color: "rgba(0, 0, 0, 0.08)"
+
+  primary-text-color: "#223025"
+  secondary-text-color: "#526657"
+  disabled-text-color: "rgba(34, 48, 37, 0.45)"
+
+  # Header / sidebar
+  app-header-background-color: "#ffffff"
+  sidebar-background-color: "#ffffff"
+  sidebar-text-color: "#223025"
+  sidebar-selected-text-color: "#223025"
+  sidebar-selected-icon-color: "#a8b82f"
+
+  # Cards
+  ha-card-border-radius: "16px"
+  ha-card-box-shadow: "0 8px 24px rgba(0,0,0,0.10)"
+  ha-card-border-width: "1px"
+  ha-card-border-color: "rgba(0,0,0,0.06)"
+
+  # States & controls
+  state-icon-color: "#6b7b71"
+  state-icon-active-color: "#a8b82f"
+  paper-item-icon-active-color: "#a8b82f"
+  paper-toggle-button-checked-button-color: "#a8b82f"
+  paper-toggle-button-checked-bar-color: "rgba(168,184,47,0.35)"
+
+  # Sliders (old/new vars depending on frontend)
+  paper-slider-knob-color: "#a8b82f"
+  paper-slider-active-color: "#a8b82f"
+  paper-slider-container-color: "rgba(34,48,37,0.18)"
+
+
+############################
+# 🍷 Bordeaux (Deep Red)
+############################
+bordeaux:
+  # Typography (Light)
+  primary-font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  paper-font-common-base_-_font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  paper-font-common-code_-_font-family: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+  paper-font-body1_-_font-weight: 300
+  paper-font-body2_-_font-weight: 300
+  paper-font-caption_-_font-weight: 300
+  paper-font-headline_-_font-weight: 300
+  paper-font-subhead_-_font-weight: 300
+  paper-font-title_-_font-weight: 300
+  paper-font-button_-_font-weight: 300
+  mdc-typography-font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  ha-card-header-font-weight: 300
+  app-header-font-weight: 300
+
+  # Colors
+  primary-color: "#7b1e3a"
+  accent-color: "#a12c4a"
+  background-color: "#120a0e"
+  primary-background-color: "#120a0e"
+  secondary-background-color: "#1d0f16"
+  card-background-color: "#1d0f16"
+  divider-color: "rgba(255, 255, 255, 0.08)"
+
+  primary-text-color: "#f3e9ec"
+  secondary-text-color: "#d6c0c7"
+  disabled-text-color: "rgba(243,233,236,0.45)"
+
+  # Header / sidebar
+  app-header-background-color: "#120a0e"
+  sidebar-background-color: "#120a0e"
+  sidebar-text-color: "#d6c0c7"
+  sidebar-selected-text-color: "#f3e9ec"
+  sidebar-selected-icon-color: "#a12c4a"
+
+  # Cards
+  ha-card-border-radius: "16px"
+  ha-card-box-shadow: "0 10px 28px rgba(0,0,0,0.45)"
+  ha-card-border-width: "1px"
+  ha-card-border-color: "rgba(255,255,255,0.08)"
+
+  # States & controls
+  state-icon-color: "#d6c0c7"
+  state-icon-active-color: "#a12c4a"
+  paper-item-icon-active-color: "#a12c4a"
+  paper-toggle-button-checked-button-color: "#a12c4a"
+  paper-toggle-button-checked-bar-color: "rgba(161,44,74,0.35)"
+
+  paper-slider-knob-color: "#a12c4a"
+  paper-slider-active-color: "#a12c4a"
+  paper-slider-container-color: "rgba(243,233,236,0.18)"
+
+
+############################
+# 🍇 Wineyard (Natural Green / Neutral)
+############################
+wineyard:
+  # Typography (Light)
+  primary-font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  paper-font-common-base_-_font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  paper-font-common-code_-_font-family: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+  paper-font-body1_-_font-weight: 300
+  paper-font-body2_-_font-weight: 300
+  paper-font-caption_-_font-weight: 300
+  paper-font-headline_-_font-weight: 300
+  paper-font-subhead_-_font-weight: 300
+  paper-font-title_-_font-weight: 300
+  paper-font-button_-_font-weight: 300
+  mdc-typography-font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  ha-card-header-font-weight: 300
+  app-header-font-weight: 300
+
+  # Colors
+  primary-color: "#4e6b3a"
+  accent-color: "#6c8f4e"
+  background-color: "#0f140f"
+  primary-background-color: "#0f140f"
+  secondary-background-color: "#151d15"
+  card-background-color: "#151d15"
+  divider-color: "rgba(255, 255, 255, 0.08)"
+
+  primary-text-color: "#e6efe6"
+  secondary-text-color: "#b9c9b9"
+  disabled-text-color: "rgba(230,239,230,0.45)"
+
+  # Header / sidebar
+  app-header-background-color: "#0f140f"
+  sidebar-background-color: "#0f140f"
+  sidebar-text-color: "#b9c9b9"
+  sidebar-selected-text-color: "#e6efe6"
+  sidebar-selected-icon-color: "#6c8f4e"
+
+  # Cards
+  ha-card-border-radius: "16px"
+  ha-card-box-shadow: "0 10px 28px rgba(0,0,0,0.42)"
+  ha-card-border-width: "1px"
+  ha-card-border-color: "rgba(255,255,255,0.08)"
+
+  # States & controls
+  state-icon-color: "#b9c9b9"
+  state-icon-active-color: "#6c8f4e"
+  paper-item-icon-active-color: "#6c8f4e"
+  paper-toggle-button-checked-button-color: "#6c8f4e"
+  paper-toggle-button-checked-bar-color: "rgba(108,143,78,0.35)"
+
+  paper-slider-knob-color: "#6c8f4e"
+  paper-slider-active-color: "#6c8f4e"
+  paper-slider-container-color: "rgba(230,239,230,0.18)"
+
+
+############################
+# 🌙 Wineyard Dark (darker, higher contrast)
+############################
+wineyard_dark:
+  # Typography (Light)
+  primary-font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  paper-font-common-base_-_font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  paper-font-common-code_-_font-family: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+  paper-font-body1_-_font-weight: 300
+  paper-font-body2_-_font-weight: 300
+  paper-font-caption_-_font-weight: 300
+  paper-font-headline_-_font-weight: 300
+  paper-font-subhead_-_font-weight: 300
+  paper-font-title_-_font-weight: 300
+  paper-font-button_-_font-weight: 300
+  mdc-typography-font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  ha-card-header-font-weight: 300
+  app-header-font-weight: 300
+
+  # Colors
+  primary-color: "#355129"
+  accent-color: "#6c8f4e"
+  background-color: "#0a0e0a"
+  primary-background-color: "#0a0e0a"
+  secondary-background-color: "#111711"
+  card-background-color: "#111711"
+  divider-color: "rgba(255, 255, 255, 0.08)"
+
+  primary-text-color: "#e3ece3"
+  secondary-text-color: "#9fb09f"
+  disabled-text-color: "rgba(227,236,227,0.45)"
+
+  # Header / sidebar
+  app-header-background-color: "#0a0e0a"
+  sidebar-background-color: "#0a0e0a"
+  sidebar-text-color: "#9fb09f"
+  sidebar-selected-text-color: "#e3ece3"
+  sidebar-selected-icon-color: "#6c8f4e"
+
+  # Cards
+  ha-card-border-radius: "16px"
+  ha-card-box-shadow: "0 12px 32px rgba(0,0,0,0.55)"
+  ha-card-border-width: "1px"
+  ha-card-border-color: "rgba(255,255,255,0.08)"
+
+  # States & controls
+  state-icon-color: "#9fb09f"
+  state-icon-active-color: "#6c8f4e"
+  paper-item-icon-active-color: "#6c8f4e"
+  paper-toggle-button-checked-button-color: "#6c8f4e"
+  paper-toggle-button-checked-bar-color: "rgba(108,143,78,0.35)"
+
+  paper-slider-knob-color: "#6c8f4e"
+  paper-slider-active-color: "#6c8f4e"
+  paper-slider-container-color: "rgba(227,236,227,0.16)"
+
+
+############################
+# ☀ Wineyard Light (bright, clean)
+############################
+wineyard_light:
+  # Typography (Light)
+  primary-font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  paper-font-common-base_-_font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  paper-font-common-code_-_font-family: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+  paper-font-body1_-_font-weight: 300
+  paper-font-body2_-_font-weight: 300
+  paper-font-caption_-_font-weight: 300
+  paper-font-headline_-_font-weight: 300
+  paper-font-subhead_-_font-weight: 300
+  paper-font-title_-_font-weight: 300
+  paper-font-button_-_font-weight: 300
+  mdc-typography-font-family: "Roboto, system-ui, -apple-system, Segoe UI, sans-serif"
+  ha-card-header-font-weight: 300
+  app-header-font-weight: 300
+
+  # Colors
+  primary-color: "#4e6b3a"
+  accent-color: "#6c8f4e"
+  background-color: "#f5f7f2"
+  primary-background-color: "#ffffff"
+  secondary-background-color: "#e8efe5"
+  card-background-color: "#ffffff"
+  divider-color: "rgba(0, 0, 0, 0.08)"
+
+  primary-text-color: "#243024"
+  secondary-text-color: "#556655"
+  disabled-text-color: "rgba(36,48,36,0.45)"
+
+  # Header / sidebar
+  app-header-background-color: "#ffffff"
+  sidebar-background-color: "#ffffff"
+  sidebar-text-color: "#243024"
+  sidebar-selected-text-color: "#243024"
+  sidebar-selected-icon-color: "#6c8f4e"
+
+  # Cards
+  ha-card-border-radius: "16px"
+  ha-card-box-shadow: "0 8px 24px rgba(0,0,0,0.10)"
+  ha-card-border-width: "1px"
+  ha-card-border-color: "rgba(0,0,0,0.06)"
+
+  # States & controls
+  state-icon-color: "#5c6b5c"
+  state-icon-active-color: "#4e6b3a"
+  paper-item-icon-active-color: "#4e6b3a"
+  paper-toggle-button-checked-button-color: "#4e6b3a"
+  paper-toggle-button-checked-bar-color: "rgba(78,107,58,0.30)"
+
+  paper-slider-knob-color: "#4e6b3a"
+  paper-slider-active-color: "#4e6b3a"
+  paper-slider-container-color: "rgba(36,48,36,0.18)"
